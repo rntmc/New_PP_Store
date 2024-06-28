@@ -37,4 +37,4 @@ app.post("/capture-paypal-order", async (req, res) => {
 app.listen(8888, () => {
   console.log(`server listening on port ${PORT}`)
 })
-// console.log(`Server is ready to handle requests at ${SERVER_URL}`);
+console.log(`Server is ready to handle requests at ${SERVER_URL}`);
