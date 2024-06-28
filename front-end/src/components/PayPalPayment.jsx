@@ -3,7 +3,7 @@ import toast from 'react-hot-toast'
 
 export function PayPalPayment() {
   // const serverUrl = "https://localhost:8888" to run the project locally
-  const serverUrl = "https://paypal-store-1.onrender.com"
+  const serverUrl = "https://new-pp-store.onrender.com"
 
   function createOrder(data) {
     const buyerInfo = JSON.parse(localStorage.getItem('buyerInfo'))
