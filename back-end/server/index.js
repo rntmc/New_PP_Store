@@ -2,7 +2,7 @@ import express from "express";
 import * as paypal from '../paypal-api.js';
 import cors from 'cors'
 const PORT = 8888;
-// const SERVER_URL = "https://paypal-store-1.onrender.com";
+const SERVER_URL = "https://new-pp-store.onrender.com";
 
 const app = express();
 
